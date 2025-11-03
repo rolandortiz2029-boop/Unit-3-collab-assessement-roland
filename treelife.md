@@ -36,4 +36,13 @@ Evergreen and aromatic, pine trees thrive in colder regions.
     ```
     function identify_tree(leaf_shape, region) {
         if (leaf_shape == "needle" && region == "cold") {
+    return "Pine tree" 
+        } else if (leaf_shape == "broad" && region ==  "temperate") {
+            return "Oak tree"
+        } else {
+            return "Unknown Tree"
+        } 
     }
+}
+console.log(identify_tree("needle",
+"cold") {
