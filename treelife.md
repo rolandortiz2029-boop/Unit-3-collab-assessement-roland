@@ -33,7 +33,8 @@ Known for its strength and longetivity, the oak is a symbol of endurance.
 Evergreen and aromatic, pine trees thrive in colder regions.
 	![alt text](https://enticare.com/wp-content/uploads/2024/06/pine-trees.png)
 
-    ```
+
+```
     function identify_tree(leaf_shape, region) {
         if (leaf_shape == "needle" && region == "cold") {
     return "Pine tree" 
@@ -43,6 +44,7 @@ Evergreen and aromatic, pine trees thrive in colder regions.
             return "Unknown Tree"
         } 
     }
-}
+
 console.log(identify_tree("needle",
-"cold") {
+"cold"))
+```
